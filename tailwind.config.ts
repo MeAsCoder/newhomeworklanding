@@ -8,8 +8,8 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        bg: "#0b0f1a",
-        card: "#111827",
+        bg: "#f5f8f6",
+        card: "#ffffff",
       },
       keyframes: {
         glow: {
