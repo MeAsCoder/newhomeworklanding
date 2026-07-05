@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 
 const PLAY_STORE_URL =
   "https://play.google.com/store/apps/details?id=com.payingsurveys.homeworkjobs";
-const REDIRECT_SECONDS = 1000;
+const REDIRECT_SECONDS = 5;
 
 export default function RedirectCountdown() {
   const [secondsLeft, setSecondsLeft] = useState(REDIRECT_SECONDS);
