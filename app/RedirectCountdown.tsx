@@ -3,8 +3,8 @@
 import { useEffect, useState } from "react";
 
 const PLAY_STORE_URL =
-  "https://play.google.com/store/apps/details?id=com.payingsurveys.homeworkjobs";
-const REDIRECT_SECONDS = 1000;
+  "https://play.google.com/store/apps/details?id=com.payingsurveys.instanttompesa&hl=en";
+const REDIRECT_SECONDS = 100;
 
 export default function RedirectCountdown() {
   const [secondsLeft, setSecondsLeft] = useState(REDIRECT_SECONDS);

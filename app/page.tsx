@@ -1,16 +1,16 @@
 import RedirectCountdown from "./RedirectCountdown";
 
 const PLAY_STORE_URL =
-  "https://play.google.com/store/apps/details?id=com.payingsurveys.homeworkjobs";
+  "https://play.google.com/store/apps/details?id=com.payingsurveys.instanttompesa&hl=en";
 
 const stats = [
   { value: "1M+", label: "Active Earners", icon: "👥" },
-  { value: "24/7", label: "Task Access", icon: "⚡" },
+  { value: "24/7", label: "Survey Access", icon: "⚡" },
   { value: "KSh 1,000", label: "Welcome Bonus", icon: "🎁" },
 ];
 
 const features = [
-  { label: "Instant Withdrawals", icon: "⚡" },
+  { label: "Instant M-Pesa Payouts", icon: "⚡" },
   { label: "Secure Platform", icon: "🔒" },
   { label: "Mobile Friendly", icon: "📱" },
   { label: "Work Anywhere", icon: "🌍" },
@@ -33,10 +33,10 @@ export default function Home() {
         {/* Eyebrow badge */}
         <div className="mb-8 inline-flex items-center gap-2 rounded-full border border-[var(--card-border)] bg-[var(--bg-elevated)] px-4 py-2 text-sm font-medium text-[var(--accent-green)] shadow-sm">
           <span aria-hidden>✨</span>
-          Trusted AI Earning Platform
+          Earn Cash with Paid Surveys
         </div>
 
-        {/* App icon — matches the Homework app mark: deep green tile, star + check */}
+        {/* App icon — matches the app mark: deep green tile, star + check */}
         <div
           className="mb-8 flex h-24 w-24 items-center justify-center rounded-3xl shadow-[0_12px_40px_-12px_rgba(13,61,41,0.55)]"
           style={{
@@ -63,18 +63,18 @@ export default function Home() {
         </div>
 
         {/* Title */}
-        <h1 className="font-display mb-3 text-4xl font-extrabold tracking-tight text-[var(--accent-green-deep)] sm:text-5xl">
-          Homework Jobs
+        <h1 className="font-display mb-3 text-2xl font-extrabold tracking-tight text-[var(--accent-green-deep)] sm:text-3xl">
+          Paid Surveys to M-Pesa
         </h1>
 
         <p className="mb-4 text-lg font-semibold text-[var(--accent-green)]">
-          Complete Tasks. Earn Daily via M-Pesa.
+          Complete Surveys. Get Paid Instantly via M-Pesa.
         </p>
 
         <p className="mb-10 max-w-sm text-[15px] leading-relaxed text-[var(--text-muted)]">
-          Join a growing community of Kenyans completing simple AI-powered
-          surveys and tasks from their phone — with M-Pesa payouts you can
-          request anytime.
+          Join thousands of Kenyans earning real cash by sharing their opinions 
+          through simple paid surveys. Get M-Pesa payouts instantly — no waiting, 
+          no hassle.
         </p>
 
         {/* Stat cards */}
@@ -110,7 +110,7 @@ export default function Home() {
           ))}
         </div>
 
-        {/* CTA — mirrors the app's "View Tasks" button */}
+        {/* CTA — mirrors the app's "View Surveys" button */}
         <a
           href={PLAY_STORE_URL}
           className="font-display mb-6 flex w-full items-center justify-center gap-2 rounded-2xl px-6 py-4 text-center text-base font-bold text-white shadow-[0_10px_30px_-8px_rgba(26,157,84,0.6)] transition-transform hover:scale-[1.02] active:scale-[0.99]"
@@ -119,7 +119,7 @@ export default function Home() {
               "linear-gradient(135deg, var(--accent-green), var(--accent-green-deep))",
           }}
         >
-          Get Started — It's Free
+          Start Earning Now — Free to Join
           <span aria-hidden>→</span>
         </a>
 
@@ -140,14 +140,14 @@ export default function Home() {
             </a>{" "}
             •{" "}
             <a
-              href="mailto:outlier@outlook.com"
+              href="mailto:surveys@outlook.com"
               className="underline-offset-2 hover:underline"
             >
               Contact Support
             </a>
           </p>
-          <p>Powered by Advanced AI Training Technology</p>
-          <p>Version 1.0 • © 2026 Homework Jobs</p>
+          <p>Earn Cash Sharing Your Opinion</p>
+          <p>Version 1.0 • © 2026 Paid Surveys to M-Pesa</p>
         </footer>
       </div>
     </main>
