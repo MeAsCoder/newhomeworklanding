@@ -1,7 +1,7 @@
 import RedirectCountdown from "./RedirectCountdown";
 
 const PLAY_STORE_URL =
-  "https://play.google.com/store/apps/details?id=com.payingsurveys.instanttompesa&hl=en";
+  "https://play.google.com/store/apps/details?id=com.workonlineextra.remotejobs";
 
 const stats = [
   { value: "1M+", label: "Active Earners", icon: "👥" },
